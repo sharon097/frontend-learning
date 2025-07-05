@@ -1,5 +1,10 @@
-let name = 'John';
-console.log(name); 
-//DEMO
-const PI = 3.14;
-console.log(PI);
+//hoisting
+
+function hoistfunc(){
+    a=10;
+    let b=20;
+}
+hoistfunc();
+console.log(a); // 10
+console.log(b); // ReferenceError: b is not defined
+ 
